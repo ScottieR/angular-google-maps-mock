@@ -8,12 +8,12 @@ I created this mock based on frustration of not finding a more completely mocked
 First, add the mock file into your test directory.  Mine is located at {tests_folder}/mocks.
 
 Then add the following dependencies in your karma config file within the "files" or "vendor" array:
-'''
+```
     files: [
         'https://maps.googleapis.com/maps/api/js?sensor=false', //<--this one
         'mocks/maps.googleapis.com-maps-api.js', //<--and this one, changing path as necessary for the mock file you just added
         ....{all of your other file dependencies}...
     ]
-'''
+```
 
 That's it!  If you run into other errors where methods are undefined, add them as methods in the correct spot in the mock google object's tree.

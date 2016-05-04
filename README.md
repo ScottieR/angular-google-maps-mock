@@ -5,7 +5,7 @@ I created this mock based on frustration of not finding a more completely mocked
 
 (Credit: This is building upon the more simplified mock mentioned in this thread: https://github.com/angular-ui/angular-google-maps/issues/270)
 
-First, add the mock file into your test directory.  Mine is located at {tests_folder}/mocks.
+First, add the maps.googleapis.com-maps-api.js mock file into your test directory.  Mine is located at {tests_folder}/mocks.
 
 Then add the following dependencies in your karma config file within the "files" or "vendor" array:
 ```

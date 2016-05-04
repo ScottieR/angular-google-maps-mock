@@ -9,7 +9,14 @@ var google = {
         LatLng: function(lat, lng){
         	return [lat, lng];
         },
+        Map: function(obj){
+
+        },
+        MapTypeId: {ROADMAP: true},
         places: {
+        	AutocompleteService: function(){
+
+        	},
     		PlacesService: function(obj){
     			return {
     				PlacesServiceStatus: {
